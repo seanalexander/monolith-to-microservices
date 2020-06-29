@@ -1,0 +1,4 @@
+FROM nginx:alpine
+COPY ./websites/website01 /usr/share/nginx/html
+COPY ./webservices /usr/share/nginx/html
+COPY ./resources/img /usr/share/nginx/html/img
