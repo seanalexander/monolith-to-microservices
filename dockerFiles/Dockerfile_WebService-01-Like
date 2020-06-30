@@ -2,3 +2,9 @@ FROM nginx:alpine
 COPY ./websites/website01 /usr/share/nginx/html
 COPY ./webservices /usr/share/nginx/html
 COPY ./resources/img /usr/share/nginx/html/img
+
+COPY ./resources/img /usr/share/nginx/html/webservice-01-like/img/
+COPY ./resources/img /usr/share/nginx/html/webservice-02-view/img/
+COPY ./resources/img /usr/share/nginx/html/webservice-03-user/img/
+COPY ./resources/img /usr/share/nginx/html/webservice-04-share/img/
+COPY ./resources/img /usr/share/nginx/html/webservice-05-comment/img/
