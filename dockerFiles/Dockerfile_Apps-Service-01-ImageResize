@@ -1,0 +1,3 @@
+FROM nginx:alpine
+COPY ./apps/service-01-imageresize /usr/share/nginx/html
+COPY ./resources/img /usr/share/nginx/html/img
